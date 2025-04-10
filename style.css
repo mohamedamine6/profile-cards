@@ -14,7 +14,7 @@ section {
     flex-wrap: wrap;
     margin-top: 100px;
 }
-div:where(.cart1,.cart2,.cart3,.cart4,.cart5,.cart6){
+div.cart{
     width: 325px;
     background-color: #e6f0f8;
     border-radius: 8px;
