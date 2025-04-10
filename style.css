@@ -46,6 +46,8 @@ button {
     box-shadow: 0 4px 8px rgba(13, 25, 39, 0.3);
     cursor: pointer;
     transition: 0.3s;
+    color: white;
+    font-size: 15px;
 }
 button:hover {
     background-color: #357ab8;
