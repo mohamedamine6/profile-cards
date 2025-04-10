@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body {
+    background-color:#fefae0;
+}
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+div:where(.cart1,.cart2,.cart3,.cart4,.cart5,.cart6){
+    width: 325px;
+    background-color: #e6f0f8;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 20px;
+}
+img {
+    margin: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+h2 {
+    margin: 5px;
+    font-size: 18px;
+}
+p {
+    margin: 5px;
+    font-size: 16px;
+}
+button {
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4a90e2;
+    box-shadow: 0 4px 8px rgba(13, 25, 39, 0.3);
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover {
+    background-color: #357ab8;
+}
